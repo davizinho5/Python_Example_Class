@@ -54,6 +54,7 @@ Requirement files allow you to specify exactly which packages and versions shoul
 * $ pip install --upgrade -r requirements.txt
 
 *Uninstalling Packages*
+
 Once in a while, you will have to uninstall a package, which can be a bit tricky. Notice that, when you installed requests, pip installed other dependencies too. The more packages you install, the bigger the chances that multiple packages depend on the same dependency. Therefore, before you uninstall a package, make sure you run the show command for that package:
 * $ pip show package
 
@@ -61,5 +62,6 @@ Notice there are two fields that show the *Requires* and *Required-by* packages.
 * $ pip uninstall package
 
 *Alternatives to pip - Conda*
+
 Conda is a package, dependency, and environment manager for many languages including Python. In fact, its origin comes from Anaconda, which started as a data science package for Python. Conda is widely used for data science and machine learning applications, and uses its own index to host compatible packages. Conda not only allows you to manage package dependencies, but it also manages virtual environments for your applications, installs compatible Python distributions, and packages your application for deployment to production. Setting Up Python for Machine Learning on Windows is a great introduction to Conda that explores package and environment management. The only Windows-specific information is around installation, so it’s still relevant if you use a different OS platform
 
