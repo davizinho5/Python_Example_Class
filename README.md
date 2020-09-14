@@ -9,6 +9,10 @@ Finally, the code in this file is commented using Doxygen standards. Documentati
 * $ doxygen -g config 
 * $ doxygen config
 
+Set EXTRACT_ALL tag to YES so that functions are documented. 
+Doxygen will assume all entities in # documentation are documented, even if no documentation was available. # Private class members and static file members will be hidden unless # the EXTRACT_PRIVATE and EXTRACT_STATIC tags are set to YES EXTRACT_ALL = YES # If the EXTRACT_PRIVATE tag is set to YES all private members of a class # will be included in the documentation. 
+
+# If the EXTRACT_ALL tag is set to YES 
 For a general basic Python programming overview, here is a course (free one, as far as I know):
 
 https://classroom.udacity.com/courses/ud1110
